@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+
+/********** DEFAULT **********/
+
+.logo {
+	width:20%;
+}
+
+/*** BG OF CONTAINER ***/
+.coloured1 {
+	background-color:#2a697b;
+	padding:15px 0 75px 0;
+}
+
+/*** BG OF FOOTER ***/
+.coloured2 {
+	background-color:#313131;
+	padding:25px 0 50px 0;
+}
+
+/********** OFTEN USED **********/
+
+.margintop_30 {
+	margin-top:25px;
+}
+
+.margintop_50 {
+	margin-top:35px;
+}
+
+/********** FONT **********/
+
+h2 {
+	font-size:35px !important;
+	font-weight: lighter !important;
+	color: white;
+}
+
+h3 {
+	font-size:18px !important;
+	font-weight: lighter !important;
+	line-height:27.5px !important;
+}
+
+h4 {
+	margin-top:25px !important;
+	font-weight: lighter !important;
+	line-height:30px !important;
+}
+
+.p_bold {
+	font-weight: bold;
+	color:white;
+}
+
+/********** FORM **********/
+
+.btn_submit {
+	width:100%;
+}
+
+.btn_submit:hover {
+	background-color: #e6007e;
+	color:white;
+}
+
+/********** CAROUSEL **********/
+
+.carousel-control-next {
+	right:-20px !important;
+	font-size:35px;
+}
+
+.carousel-control-prev {
+	left:-20px !important;
+	font-size:35px;
+}
+
+.carousel_content {
+	width:330px;
+	padding-top:63px;
+}
+
+#carouselExampleControls {
+	margin-top:15px;
+	height:350px;
+}
+
+#slider_img1 {
+	height: 350px;
+	background-position: 50% 50%;
+}
+
+#slider_img2 {
+	height: 350px;
+	background-position: 50% 50%;
+}
+
+#slider_img3 {
+	height: 350px;
+	background-position: 50% 50%;
+}
+
+#mobile_view {
+	display:block;
+}
+
+#desktop_view {
+	display:none;
+}
+
+/********** OVER-FOOTER **********/
+
+.tripple_icons {
+	margin-top:30px;
+}
+
+.tripple_icons img {
+	width:27.5%;
+}
+
+.tripple_icons h4 {
+	font-size:19px;
+}
+
+/********** FOOTER **********/
+
+.mobile_width .col-md-4 {
+	width:77%;
+}
+
+.row.socials .col-md-1 {
+	margin-left:17.5px;
+}
+
+.row.socials {
+	width:100%;
+	float:none;
+	display:inline-block;
+	text-align:center;
+	margin:50px 0 0 0;
+}
+
+.row.socials .col-md-1 img {
+	width:45px;
+}
